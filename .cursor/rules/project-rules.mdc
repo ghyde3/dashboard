@@ -1,0 +1,77 @@
+---
+description: Overall project
+globs: 
+---
+# Project Rules and Conventions
+
+## Code Style and Formatting
+
+- Use TypeScript for all new code
+- Follow ESLint rules defined in `eslint.config.mjs`
+- Use Prettier for code formatting
+
+## Component Guidelines
+
+- Place React components in the `app/components` directory
+- Use functional components with TypeScript interfaces for props
+- Follow the component-per-file pattern
+- Export components as named exports
+
+## State Management
+
+- Use React hooks for local state management
+- Prefer controlled components over uncontrolled ones
+- Keep state as close to where it's used as possible
+
+## Package Management
+
+- Use `npm` as the package manager
+- Keep dependencies up to date
+- Document any specific version requirements in README.md
+
+
+
+## File Structure
+
+- Keep related files close together
+- Use feature-based organization when applicable
+- Place utility functions in the `lib` directory
+- Store environment variables in `.env` files (not committed to git)
+
+## Testing
+
+- Write tests for critical functionality
+- Place test files next to the code they test
+- Use meaningful test descriptions
+
+## Git Workflow
+
+- Write clear, descriptive commit messages
+- Keep commits focused and atomic
+- Use feature branches for new development
+- Squash commits before merging to main
+
+## Documentation
+
+- Document complex logic and important decisions
+- Keep README.md up to date
+- Always include JSDoc comments for all functions
+
+## Performance
+
+- Optimize images before committing
+- Use proper lazy loading for components and images
+- Minimize bundle size through code splitting
+
+## Accessibility
+
+- Ensure proper ARIA attributes
+- Maintain keyboard navigation
+- Test with screen readers
+- Use semantic HTML elements
+
+## Security
+
+- Never commit sensitive data or API keys
+- Use environment variables for secrets
+- Keep dependencies updated to patch security vulnerabilities 

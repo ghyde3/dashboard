@@ -1,0 +1,94 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "title": "Team Meeting",
+      "description": "Weekly team sync",
+      "startTime": "2025-02-20T10:00:00Z",
+      "endTime": "2025-02-20T11:00:00Z",
+      "category": "work",
+      "color": "blue"
+    },
+    {
+      "id": "2",
+      "title": "Dentist Appointment",
+      "description": "Regular checkup",
+      "startTime": "2025-02-22T15:30:00Z",
+      "endTime": "2025-02-22T16:30:00Z",
+      "category": "health",
+      "color": "red"
+    },
+    {
+      "id": "3",
+      "title": "Birthday Party",
+      "description": "Sarah's birthday celebration",
+      "startTime": "2025-02-25T18:00:00Z",
+      "endTime": "2025-02-25T21:00:00Z",
+      "category": "personal",
+      "color": "purple"
+    },
+    {
+      "id": "4",
+      "title": "Project Deadline",
+      "description": "Submit final deliverables",
+      "startTime": "2025-02-28T17:00:00Z",
+      "endTime": "2025-02-28T17:00:00Z",
+      "category": "work",
+      "color": "orange"
+    },
+    {
+      "id": "5",
+      "title": "Gym Session",
+      "description": "Personal training",
+      "startTime": "2025-02-21T07:00:00Z",
+      "endTime": "2025-02-21T08:00:00Z",
+      "category": "health",
+      "color": "green"
+    },
+    {
+      "id": "6",
+      "title": "Product Launch",
+      "description": "New feature release",
+      "startTime": "2025-03-05T14:00:00Z",
+      "endTime": "2025-03-05T15:30:00Z",
+      "category": "work",
+      "color": "blue"
+    },
+    {
+      "id": "7",
+      "title": "Team Building",
+      "description": "Outdoor activities",
+      "startTime": "2025-03-15T09:00:00Z",
+      "endTime": "2025-03-15T17:00:00Z",
+      "category": "work",
+      "color": "purple"
+    },
+    {
+      "id": "8",
+      "title": "Quarterly Review",
+      "description": "Department performance review",
+      "startTime": "2025-03-20T13:00:00Z",
+      "endTime": "2025-03-20T15:00:00Z",
+      "category": "work",
+      "color": "blue"
+    },
+    {
+      "id": "9",
+      "title": "Family Dinner",
+      "description": "Monthly family gathering",
+      "startTime": "2025-03-22T18:00:00Z",
+      "endTime": "2025-03-22T21:00:00Z",
+      "category": "personal",
+      "color": "purple"
+    },
+    {
+      "id": "10",
+      "title": "Yoga Class",
+      "description": "Weekly wellness session",
+      "startTime": "2025-03-25T08:00:00Z",
+      "endTime": "2025-03-25T09:00:00Z",
+      "category": "health",
+      "color": "green"
+    }
+  ]
+} 

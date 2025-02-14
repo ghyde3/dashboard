@@ -1,0 +1,15 @@
+---
+description: This is when creating new components and using the correct CLI
+globs: 
+---
+## shadcn/ui Components
+
+- When adding new shadcn components, always use the following command format:
+  ```bash
+  npx shadcn@latest add <component-name>
+  ```
+- Never use `shadcn-ui@latest`
+- Multiple components can be added in one command:
+  ```bash
+  npx shadcn@latest add badge scroll-area
+  ```
