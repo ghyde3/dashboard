@@ -2,6 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { WeatherWidget } from "./components/WeatherWidget";
 import { CalendarWidget } from "./components/CalendarWidget";
 import { TodoWidget } from "./components/TodoWidget";
+import { NotesWidget } from "./components/NotesWidget";
 
 export default function Home() {
   return (
@@ -16,6 +17,9 @@ export default function Home() {
 
         {/* Todo Widget */}
         <TodoWidget />
+
+        {/* Notes Widget */}
+        <NotesWidget />
       </div>
     </main>
   );
