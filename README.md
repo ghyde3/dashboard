@@ -1,8 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Weather Dashboard
+
+A modern dashboard application built with Next.js that provides various widgets including weather forecasts, calendar events, todos, and notes.
+
+## Features
+
+- **Weather Widget**
+  - Real-time weather data display
+  - Location search by ZIP code
+  - Temperature unit toggle (°F/°C)
+  - Detailed weather information including temperature, wind, humidity, and pressure
+  - Weather forecast visualization
+
+- **Calendar Widget**
+  - Event tracking and display
+  - Daily and weekly views
+
+- **Todo Widget**
+  - Task management
+  - Task completion tracking
+
+- **Notes Widget**
+  - Quick note-taking functionality
+  - Note organization
+
+## Tech Stack
+
+- [Next.js 14](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Shadcn UI](https://ui.shadcn.com/)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18.17 or later
+- npm, yarn, or pnpm
+
+### Environment Setup
+
+1. Clone the repository
+2. Create a `.env` file in the root directory with the following variables:
+   ```
+   OPENWEATHER_API_KEY=your_api_key_here
+   ```
+
+### Installation
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+### Running the Development Server
 
 ```bash
 npm run dev
@@ -14,11 +67,40 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+├── app/
+│   ├── components/     # React components
+│   ├── services/      # API services
+│   ├── types/         # TypeScript types
+│   └── page.tsx       # Main page
+├── components/
+│   └── ui/           # Shadcn UI components
+├── public/           # Static assets
+└── styles/          # Global styles
+```
+
+## Development
+
+- The application uses TypeScript for type safety
+- Components follow a modular architecture
+- Styling is handled through Tailwind CSS
+- UI components are built with Shadcn UI
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Learn More
 
